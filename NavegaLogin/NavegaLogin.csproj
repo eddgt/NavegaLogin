@@ -1,0 +1,578 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F15DE3C0-D04D-4B04-A21F-460705E5AE69}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NavegaLogin</RootNamespace>
+    <AssemblyName>NavegaLogin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BDComm, Version=2.5.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\BDComm.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxEditors.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxGridView.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Generales, Version=1.0.0.2, Culture=neutral, PublicKeyToken=1dc6fa415f6a4581">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Generales.dll</HintPath>
+    </Reference>
+    <Reference Include="metabuilders.webcontrols.dialogwindow, Version=1.1.5000.0, Culture=neutral, PublicKeyToken=8f1b87f9edb00944">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\metabuilders.webcontrols.dialogwindow.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_EasyMenu_Pro, Version=2.6.12.0, Culture=neutral, PublicKeyToken=cec71b4d9da3ae28">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\obout_EasyMenu_Pro.dll</HintPath>
+    </Reference>
+    <Reference Include="PREUBAME, Version=1.0.2543.20008, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\PREUBAME.dll</HintPath>
+    </Reference>
+    <Reference Include="ssoEncrypt, Version=2.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ssoEncrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="ssoInfo, Version=2.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ssoInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="ssoSeguridad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ssoSeguridad.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtButtonBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtButtonBackDis.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtButtonBackHover.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtButtonBackPressed.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarFNNextYear.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarFNPrevYear.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarHeadBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarNextMonth.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarNextMonthDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarNextYear.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarNextYearDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarPrevMonth.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarPrevMonthDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarPrevYear.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtCalendarPrevYearDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtDropDown.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtDropDownDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtEllipsis.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtEllipsisDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtError.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinDecBtnBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinEditDecrementImage.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinEditDecrementImageDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinEditIncrementImage.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinEditIncrementImageDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinEditLargeDecImage.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinEditLargeDecImageDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinEditLargeIncImage.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinEditLargeIncImageDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinIncBtnBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinIncBtnHBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinIncBtnPBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinLargeIncBtnBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinLargeIncBtnHBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\edtSpinLargeIncBtnPBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcadd.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcaddhot.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcgroupaddcondition.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcgroupaddgroup.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcgroupand.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcgroupnotand.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcgroupnotor.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcgroupor.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcgroupremove.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopany.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopbegin.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopbetween.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopblank.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopcontain.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopend.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopequal.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopgreater.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopgreaterorequal.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopless.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcoplessorequal.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcoplike.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopnotany.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopnotbetween.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopnotblank.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopnotcontain.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopnotequal.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcopnotlike.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcremove.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\fcremovehot.png" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\lbHeaderBackground.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\Loading.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Editors\styles.css" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvCollapsedButton.png" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvDragAndDropArrowDown.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvDragAndDropArrowUp.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvDragAndDropHideColumn.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvExpandedButton.png" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvFilterRowButton.png" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvFocusedBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvGradient.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvHeaderFilter.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvHeaderFilterActive.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvHeaderSortDown.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvHeaderSortUp.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvLoadingOnStatusBar.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvParentGroupRows.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\gvTitleBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\Loading.gif" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\styles.css" />
+    <Content Include="App_Themes\Office2003 Blue\GridView\WindowResizer.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\hlTail.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\Loading.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mHorizontalPopOut.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mItemBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mItemHBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mItemSBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mItemSeparatorBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mItemVerticalSeparatorBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mPopupBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mPopupHBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mPopupSeparatorBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mSubMenuItem.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mSubMenuItemChecked.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\mVerticalPopOut.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\nbBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\nbCollapse.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\nbExpand.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\nbGroupBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\nbGroupHeaderBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\nbHBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\nbSBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pAll.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pAllDisabled.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pcCloseButton.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pcHeaderBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pcModalBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pcSizeGrip.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pFirst.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pFirstDisabled.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pLast.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pLastDisabled.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pNext.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pNextDisabled.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pPrev.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\pPrevDisabled.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\rpBottomLeftCorner.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\rpBottomRightCorner.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\rpHeader.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\rpNoHeaderTopLeftCorner.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\rpNoHeaderTopRightCorner.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\rpTopEdge.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\rpTopLeftCorner.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\rpTopRightCorner.png" />
+    <Content Include="App_Themes\Office2003 Blue\Web\smBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\smFirstLevelBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\smSecondLevelBullet.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\styles.css" />
+    <Content Include="App_Themes\Office2003 Blue\Web\tcBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\tcTabABack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\tcTabAHBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\tcTabBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\tcTabHBack.gif" />
+    <Content Include="App_Themes\Office2003 Blue\Web\tiBackToTop.gif" />
+    <Content Include="Bloqueo_Usuario.aspx" />
+    <Content Include="CambioClave.aspx" />
+    <Content Include="cmbClv.aspx" />
+    <Content Include="CS\newStyleWhite.css" />
+    <Content Include="CS\StyleSheet.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="EditarPerfil.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="guardaPregunta.aspx" />
+    <Content Include="images\1.gif" />
+    <Content Include="images\12.gif" />
+    <Content Include="images\13.gif" />
+    <Content Include="images\14.gif" />
+    <Content Include="images\2.gif" />
+    <Content Include="images\20.gif" />
+    <Content Include="images\21.gif" />
+    <Content Include="images\3.gif" />
+    <Content Include="images\41.gif" />
+    <Content Include="images\5.gif" />
+    <Content Include="images\6.gif" />
+    <Content Include="images\7.gif" />
+    <Content Include="images\7a.gif" />
+    <Content Include="images\8.gif" />
+    <Content Include="images\8a.gif" />
+    <Content Include="images\error.gif" />
+    <Content Include="images\fondologin2.jpg" />
+    <Content Include="images\Intranet.gif" />
+    <Content Include="images\Intranet_gt.gif" />
+    <Content Include="images\Intranet_GUA.gif" />
+    <Content Include="images\Intranet_SV.gif" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\mapa2.jpg" />
+    <Content Include="images\banderas\BOL.png" />
+    <Content Include="images\banderas\CRC.png" />
+    <Content Include="images\banderas\ELS.png" />
+    <Content Include="images\banderas\GUA.png" />
+    <Content Include="images\banderas\HON.png" />
+    <Content Include="images\banderas\NIC.png" />
+    <Content Include="images\banderas\PAN.png" />
+    <Content Include="images\banderas\PAR.png" />
+    <Content Include="images\mapas\BOL.jpg" />
+    <Content Include="images\mapas\CRC.jpg" />
+    <Content Include="images\mapas\ELS.jpg" />
+    <Content Include="images\mapas\GUA.jpg" />
+    <Content Include="images\mapas\HON.jpg" />
+    <Content Include="images\mapas\NIC.jpg" />
+    <Content Include="images\mapas\PAN.jpg" />
+    <Content Include="images\mapas\PAR.jpg" />
+    <Content Include="images\mh\AreaTecnica.gif" />
+    <Content Include="images\mh\AreaTecnica.jpg" />
+    <Content Include="images\mh\BackTab.jpg" />
+    <Content Include="images\mh\Facturacion.jpg" />
+    <Content Include="images\mh\HAreaTecnica.jpg" />
+    <Content Include="images\mh\HCompras.jpg" />
+    <Content Include="images\mh\HFacturacion.jpg" />
+    <Content Include="images\mh\HInicio.jpg" />
+    <Content Include="images\mh\HVentas.jpg" />
+    <Content Include="images\mh\Inicio.gif" />
+    <Content Include="images\mh\Inicio.jpg" />
+    <Content Include="images\mh\OrdendeCompra.gif" />
+    <Content Include="images\mh\OrdenesdeCompra.jpg" />
+    <Content Include="images\mh\Ventas.jpg" />
+    <Content Include="images\seguridad.png" />
+    <Content Include="images\selempresa\active_bg.png" />
+    <Content Include="images\selempresa\divider.png" />
+    <Content Include="images\selempresa\panel.jpg" />
+    <Content Include="images\selempresa\pic_bg.png" />
+    <Content Include="images\tb.png" />
+    <Content Include="images\Titulo_BOL.jpg" />
+    <Content Include="images\Titulo_CRC.jpg" />
+    <Content Include="images\titulo_ELS.jpg" />
+    <Content Include="images\Titulo_GUA.jpg" />
+    <Content Include="images\titulo_HON.jpg" />
+    <Content Include="images\titulo_NIC.jpg" />
+    <Content Include="images\Titulo_PAR.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="Mensaje.aspx" />
+    <Content Include="menuhide.aspx" />
+    <Content Include="menuhorizontal.aspx" />
+    <Content Include="MultiPais.aspx" />
+    <Content Include="PasaAplicacion.aspx" />
+    <Content Include="pgfinsession.aspx" />
+    <Content Include="Principal.aspx" />
+    <Content Include="Principal_old.aspx" />
+    <Content Include="Reportes\vacio.txt" />
+    <Content Include="respondePregunta.aspx" />
+    <Content Include="SeleccionAplicacion.aspx" />
+    <Content Include="scripts\jquery.min.js" />
+    <Content Include="scripts\script.js" />
+    <Content Include="CS\newStyle.css" />
+    <Content Include="recuperarClave.aspx" />
+    <None Include="Web References\WebReference\wsClaves.disco" />
+    <Content Include="Web.config" />
+    <Content Include="wgoc.aspx" />
+    <Content Include="widgetlg.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bloqueo_Usuario.aspx.cs">
+      <DependentUpon>Bloqueo_Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bloqueo_Usuario.aspx.designer.cs">
+      <DependentUpon>Bloqueo_Usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CambioClave.aspx.cs">
+      <DependentUpon>CambioClave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CambioClave.aspx.designer.cs">
+      <DependentUpon>CambioClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\clsSeguridad.cs" />
+    <Compile Include="Clases\clsSesionAD.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clases\clsValidaSesion.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cmbClv.aspx.cs">
+      <DependentUpon>cmbClv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cmbClv.aspx.designer.cs">
+      <DependentUpon>cmbClv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DS\sso_usuarios.Designer.cs" />
+    <Compile Include="EditarPerfil.aspx.cs">
+      <DependentUpon>EditarPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPerfil.aspx.designer.cs">
+      <DependentUpon>EditarPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="guardaPregunta.aspx.cs">
+      <DependentUpon>guardaPregunta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="guardaPregunta.aspx.designer.cs">
+      <DependentUpon>guardaPregunta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje.aspx.cs">
+      <DependentUpon>Mensaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mensaje.aspx.designer.cs">
+      <DependentUpon>Mensaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuhide.aspx.cs">
+      <DependentUpon>menuhide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuhide.aspx.designer.cs">
+      <DependentUpon>menuhide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuhorizontal.aspx.cs">
+      <DependentUpon>menuhorizontal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuhorizontal.aspx.designer.cs">
+      <DependentUpon>menuhorizontal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultiPais.aspx.cs">
+      <DependentUpon>MultiPais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultiPais.aspx.designer.cs">
+      <DependentUpon>MultiPais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasaAplicacion.aspx.cs">
+      <DependentUpon>PasaAplicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasaAplicacion.aspx.designer.cs">
+      <DependentUpon>PasaAplicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgfinsession.aspx.cs">
+      <DependentUpon>pgfinsession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgfinsession.aspx.designer.cs">
+      <DependentUpon>pgfinsession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.aspx.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.aspx.designer.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal_old.aspx.cs">
+      <DependentUpon>Principal_old.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal_old.aspx.designer.cs">
+      <DependentUpon>Principal_old.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="respondePregunta.aspx.cs">
+      <DependentUpon>respondePregunta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="respondePregunta.aspx.designer.cs">
+      <DependentUpon>respondePregunta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeleccionAplicacion.aspx.cs">
+      <DependentUpon>SeleccionAplicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeleccionAplicacion.aspx.designer.cs">
+      <DependentUpon>SeleccionAplicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testPage.aspx.cs">
+      <DependentUpon>recuperarClave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testPage.aspx.designer.cs">
+      <DependentUpon>recuperarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="wgoc.aspx.cs">
+      <DependentUpon>wgoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wgoc.aspx.designer.cs">
+      <DependentUpon>wgoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="widgetlg.aspx.cs">
+      <DependentUpon>widgetlg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="widgetlg.aspx.designer.cs">
+      <DependentUpon>widgetlg.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DS\sso_usuarios.xsc">
+      <DependentUpon>sso_usuarios.xsd</DependentUpon>
+    </None>
+    <None Include="DS\sso_usuarios.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS\sso_usuarios.xss">
+      <DependentUpon>sso_usuarios.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ssonp.eif" />
+    <None Include="Web References\WebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebReference\Respuesta.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebReference\wsClaves.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://172.16.5.19/wsSecurity/wsClaves.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReference\</RelPath>
+      <UpdateFromURL>https://172.16.5.19/wsSecurity/wsClaves.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>NavegaLogin_WebReference_Service1</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>27400</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

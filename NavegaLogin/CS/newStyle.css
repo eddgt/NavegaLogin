@@ -1,0 +1,242 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	/* Page reset */
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	/* Setting default text color, background and a font stack */
+	color:#444444;
+	font-size:13px;
+	background: #f2f2f2;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Gallery styles */
+
+#gallery{
+	/* CSS3 Box Shadow */
+	-moz-box-shadow:0 0 3px #AAAAAA;
+	-webkit-box-shadow:0 0 3px #AAAAAA;
+	box-shadow:0 0 3px #AAAAAA;
+	
+	/* CSS3 Rounded Corners */
+	
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+	
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+	
+	border:1px solid white;
+	
+	background:url(../images/selempresa/panel.jpg) repeat-x bottom center #ffffff;
+	
+	/* The width of the gallery */
+	width:920px;
+	overflow:hidden;
+}
+
+#slides{
+	/* This is the slide area */
+	height:400px;
+	
+	/* jQuery changes the width later on to the sum of the widths of all the slides. */
+	width:920px;
+	overflow:hidden;
+	text-align=top;
+}
+
+.slide{
+	float:left;
+}
+
+#menu{
+	/* This is the container for the thumbnails */
+	height:45px;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+}
+
+
+li{
+	/* Every thumbnail is a li element */
+	width:60px;
+	display:inline-block;
+	list-style:none;
+	height:45px;
+	overflow:hidden;
+}
+
+li.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background:url(../images/selempresa/pic_bg.png) repeat;
+}
+
+li.act,li.act:hover{
+	/* The active state of the thumb */
+	background:url(../images/selempresa/active_bg.png) no-repeat;
+}
+
+li.act a{
+	cursor:default;
+}
+
+.fbar{
+	/* The left-most vertical bar, next to the first thumbnail */
+	width:2px;
+	background:url(../images/selempresa/divider.png) no-repeat right;
+}
+
+li a{
+	display:block;
+	background:url(../images/selempresa/divider.png) no-repeat right;
+	height:35px;
+	padding-top:10px;
+}
+
+a img{
+	border:none;
+}
+
+
+/* The styles below are only necessary for the demo page */
+
+h1{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:26px;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+h2{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	/*position:absolute;
+	left:0;*/
+
+	/*text-transform:uppercase;*/
+	/*top:30px;*/
+}
+
+#main{
+	/* The main container */
+	margin:15px auto;
+	text-align:center;
+	width:920px;
+	position:relative;
+}
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+p{
+	padding:10px;
+	text-align:center;
+}
+
+.textbox { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(255, 255, 255, 0.44); 
+    color: #333; 
+    border: 1px solid #A4A4A4; 
+    padding: 4px 8px 4px 4px !important;
+    line-height: 1; 
+  } 
+ .textbox:hover
+{
+    border: 1px solid #0066FF;
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3);
+} 
+ .textbox:focus { 
+    border: 1px solid #4d90fe; 
+    outline: none; 
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3);  
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    background: rgb(255, 255, 255); } 
+    
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	/*width:131px;*/
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+	cursor:pointer;
+}
+
+/*estilo para el modal loading*/
+ .modal
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 99;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        -moz-opacity: 0.8;
+        min-height: 100%;
+        width: 100%;
+    }
+    .loading
+    {
+        font-family: Arial;
+        font-size: 10pt;
+        border: 5px solid #67CFF5;
+        width: 200px;
+        height: 100px;
+        display: none;
+        position: fixed;
+        background-color: White;
+        z-index: 999;
+    }

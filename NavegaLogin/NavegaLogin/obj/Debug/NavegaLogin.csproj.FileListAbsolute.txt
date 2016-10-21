@@ -1,0 +1,13 @@
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb

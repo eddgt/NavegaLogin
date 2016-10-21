@@ -1,0 +1,300 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F15DE3C0-D04D-4B04-A21F-460705E5AE69}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NavegaLogin</RootNamespace>
+    <AssemblyName>NavegaLogin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BDComm, Version=2.5.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\BDComm.dll</HintPath>
+    </Reference>
+    <Reference Include="Generales, Version=1.0.0.2, Culture=neutral, PublicKeyToken=1dc6fa415f6a4581">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Generales.dll</HintPath>
+    </Reference>
+    <Reference Include="metabuilders.webcontrols.dialogwindow, Version=1.1.5000.0, Culture=neutral, PublicKeyToken=8f1b87f9edb00944">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\metabuilders.webcontrols.dialogwindow.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_EasyMenu_Pro, Version=2.6.12.0, Culture=neutral, PublicKeyToken=cec71b4d9da3ae28">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\obout_EasyMenu_Pro.dll</HintPath>
+    </Reference>
+    <Reference Include="PREUBAME, Version=1.0.2543.20008, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\PREUBAME.dll</HintPath>
+    </Reference>
+    <Reference Include="ssoEncrypt, Version=2.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ssoEncrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="ssoInfo, Version=2.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ssoInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="ssoSeguridad, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ssoSeguridad.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CambioClave.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="images\1.gif" />
+    <Content Include="images\10.gif" />
+    <Content Include="images\12.gif" />
+    <Content Include="images\2.gif" />
+    <Content Include="images\3.gif" />
+    <Content Include="images\4.gif" />
+    <Content Include="images\5.gif" />
+    <Content Include="images\6.gif" />
+    <Content Include="images\7.gif" />
+    <Content Include="images\8.gif" />
+    <Content Include="images\9.gif" />
+    <Content Include="images\btnLogin.jpg" />
+    <Content Include="images\Centroamerica.gif" />
+    <Content Include="images\change_password.jpg" />
+    <Content Include="images\error.gif" />
+    <Content Include="images\fondologin2.jpg" />
+    <Content Include="images\fondologin2_ant.jpg" />
+    <Content Include="images\fondo_nuevo.jpg" />
+    <Content Include="images\Intranet.gif" />
+    <Content Include="images\Intranet_gt.gif" />
+    <Content Include="images\Intranet_GUA.gif" />
+    <Content Include="images\Intranet_SV.gif" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\Manager_seguridad.gif" />
+    <Content Include="images\mapa.gif" />
+    <Content Include="images\mapa2.jpg" />
+    <Content Include="images\mapa3.jpg" />
+    <Content Include="images\mh\AreaTecnica.gif" />
+    <Content Include="images\mh\AreaTecnica.jpg" />
+    <Content Include="images\mh\BackTab.jpg" />
+    <Content Include="images\mh\Facturacion.jpg" />
+    <Content Include="images\mh\HAreaTecnica.jpg" />
+    <Content Include="images\mh\HCompras.jpg" />
+    <Content Include="images\mh\HFacturacion.jpg" />
+    <Content Include="images\mh\HInicio.jpg" />
+    <Content Include="images\mh\HVentas.jpg" />
+    <Content Include="images\mh\Inicio.gif" />
+    <Content Include="images\mh\Inicio.jpg" />
+    <Content Include="images\mh\OrdendeCompra.gif" />
+    <Content Include="images\mh\OrdenesdeCompra.jpg" />
+    <Content Include="images\mh\Ventas.jpg" />
+    <Content Include="images\Navegaplus_cr.gif" />
+    <Content Include="images\Navegaplus_gt.gif" />
+    <Content Include="images\navegaplus_gua.gif" />
+    <Content Include="images\navegaplus_gua_tot.gif" />
+    <Content Include="images\Navegaplus_hn.gif" />
+    <Content Include="images\Navegaplus_nc.gif" />
+    <Content Include="images\Navegaplus_pn.gif" />
+    <Content Include="images\Navegaplus_pruebas.gif" />
+    <Content Include="images\Navegaplus_sv.gif" />
+    <Content Include="images\Navegaplus_tc.gif" />
+    <Content Include="images\Noacceso.gif" />
+    <Content Include="images\Noacceso2.gif" />
+    <Content Include="images\Seguridad.gif" />
+    <Content Include="Login.aspx" />
+    <Content Include="Mensaje.aspx" />
+    <Content Include="menuhide.aspx" />
+    <Content Include="menuhorizontal.aspx" />
+    <Content Include="MultiPais.aspx" />
+    <Content Include="PasaAplicacion.aspx" />
+    <Content Include="pgfinsession.aspx" />
+    <Content Include="Principal.aspx" />
+    <Content Include="SeleccionAplicacion.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="wgoc.aspx" />
+    <Content Include="widgetlg.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CambioClave.aspx.cs">
+      <DependentUpon>CambioClave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CambioClave.aspx.designer.cs">
+      <DependentUpon>CambioClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\clsSesionAD.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clases\clsValidaSesion.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje.aspx.cs">
+      <DependentUpon>Mensaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mensaje.aspx.designer.cs">
+      <DependentUpon>Mensaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuhide.aspx.cs">
+      <DependentUpon>menuhide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuhide.aspx.designer.cs">
+      <DependentUpon>menuhide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuhorizontal.aspx.cs">
+      <DependentUpon>menuhorizontal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuhorizontal.aspx.designer.cs">
+      <DependentUpon>menuhorizontal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultiPais.aspx.cs">
+      <DependentUpon>MultiPais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultiPais.aspx.designer.cs">
+      <DependentUpon>MultiPais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasaAplicacion.aspx.cs">
+      <DependentUpon>PasaAplicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasaAplicacion.aspx.designer.cs">
+      <DependentUpon>PasaAplicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgfinsession.aspx.cs">
+      <DependentUpon>pgfinsession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgfinsession.aspx.designer.cs">
+      <DependentUpon>pgfinsession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.aspx.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.aspx.designer.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeleccionAplicacion.aspx.cs">
+      <DependentUpon>SeleccionAplicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeleccionAplicacion.aspx.designer.cs">
+      <DependentUpon>SeleccionAplicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wgoc.aspx.cs">
+      <DependentUpon>wgoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wgoc.aspx.designer.cs">
+      <DependentUpon>wgoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="widgetlg.aspx.cs">
+      <DependentUpon>widgetlg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="widgetlg.aspx.designer.cs">
+      <DependentUpon>widgetlg.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ssonp.eif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1826</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

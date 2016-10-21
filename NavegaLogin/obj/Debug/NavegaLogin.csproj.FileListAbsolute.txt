@@ -1,0 +1,186 @@
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Omar\Nuevo NavegaLogin\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Omar\Proyectos\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+C:\Users\berny\Dropbox\Documentos\Trabajo\Proyectos\Tigo\Modulo de seguridad\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Users\hunapu\Desktop\publish\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll.licenses
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\bin\BDComm.dll
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\bin\Generales.dll
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+D:\Job\todos los proyectos\Publish\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll.licenses
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+C:\Users\hunapu\Desktop\NavegaLogin\NavegaLogin\bin\ssoSeguridad.pdb
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\bin\ssoSeguridad.pdb
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll.licenses
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Users\hunapu\Desktop\Proy Seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\bin\ssoSeguridad.pdb
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll.licenses
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Users\hunapu\Desktop\Proyecto Seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\bin\ssoSeguridad.pdb
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll.licenses
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Omar\Proyecto\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\bin\ssoSeguridad.pdb
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll.licenses
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Omar\Modificar\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\bin\ssoSeguridad.pdb
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll.licenses
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Desarrollo\VS 2008\Seguridad\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\bin\ssoSeguridad.pdb
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll.licenses
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Omar\Proyecto\merge 20150422\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\NavegaLogin.dll
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\NavegaLogin.pdb
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\BDComm.dll
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\Generales.dll
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\metabuilders.webcontrols.dialogwindow.dll
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\obout_EasyMenu_Pro.dll
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\PREUBAME.dll
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\ssoEncrypt.dll
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\ssoInfo.dll
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\ssoSeguridad.dll
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\bin\ssoSeguridad.pdb
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll.licenses
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.dll
+C:\Users\oulloa\Documents\FUENTES NAVEGAPLUS\NavegaLogin\NavegaLogin\obj\Debug\NavegaLogin.pdb

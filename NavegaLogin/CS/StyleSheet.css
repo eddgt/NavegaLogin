@@ -1,0 +1,97 @@
+﻿.modalBackground
+{
+    background-color:Gray;
+    filter:alpha(opacity=70);
+    opacity:0.7;
+}
+
+body
+{
+	background-image: url('../../Images/fondo_nuevo.jpg');
+	font-size: x-small;
+	font-family: Arial, 'Trebuchet MS';
+	background-attachment: fixed;
+
+}
+
+.barraTitulo
+{
+	background:#607089;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: white;
+}
+.modalPopup
+{
+    background-color:#ffffdd;
+    border-width:3px;
+    border-style:Solid;
+    border-color:Gray;
+    padding:3px;
+}
+.lbltitulopagina
+{
+	font-weight: bold;
+	font-size: xx-large;
+}
+.titulopanelazul
+{
+	font-size: xx-large;
+	font-weight: bold;
+	color: white;
+	background-color: #6699cc;
+	text-align: center;
+}
+.panelazul
+{
+	border-right: #6699cc 1px solid;
+	border-top: #6699cc 1px solid;
+	border-left: #6699cc 1px solid;
+	border-bottom: #6699cc 1px solid;
+	text-align: left;
+	font-size:small;
+}
+ A:link
+{
+	text-decoration: none;
+	font-size: small;
+	color: #000099;
+}
+A:visited {font-size: small; text-decoration: none; color: #000099;}
+A:active {font-size: small; text-decoration: none; color: #000099;}
+A:hover {font-size: small; text-decoration:none; font-weight:bold; color: red;}
+
+.btnencabezado
+{
+	border: 1px solid Gray;
+    color: #ffffff;
+	    font-family: 'trebuchet ms' ,helvetica,sans-serif;
+	    font-size: 85%;
+	    font-weight: bold;
+	    background-color: #6699cc;
+	    height: 23px;
+}
+.div
+{
+	text-align:center;
+}
+.modal
+{
+	background-color:#EEEEEE;
+    border-width:3px;
+    border-style:Solid;
+    border-color:Gray;
+    padding:3px;
+}
+.barraTitulo
+{
+	background:#607089;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: white;
+    text-align: center;
+}
+.encabezadoGrid
+{
+	background:#FFFFCC;
+}
